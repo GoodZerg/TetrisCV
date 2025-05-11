@@ -142,7 +142,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GBoard.cpp" />
+    <ClCompile Include="GField.cpp" />
+    <ClCompile Include="Tetramino.cpp" />
     <ClCompile Include="TetrisCV.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GBoard.h" />
+    <ClInclude Include="GField.h" />
+    <ClInclude Include="Tetramino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
